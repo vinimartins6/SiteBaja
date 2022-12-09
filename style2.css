@@ -1,0 +1,501 @@
+
+
+body{
+    background-image: url(img/carro.png);
+    background-position: center top;
+    background-repeat: repeat-y;
+    background-size: 100%;
+    background-attachment: fixed;
+    width: 1518px;
+       
+}
+
+*{
+    margin: 0;   
+    
+}
+
+#banner{
+       height: 67px;  
+       
+       background-color: #FFFFFF;
+       position: relative;
+       border-bottom: 10px;
+       padding: 0px;
+       padding-left: 80px ;
+
+        
+}
+
+#menu ul{   
+    position: absolute;
+    top: 0px;
+    left: 699px;
+    padding: 0px;
+    background: #c1a505;
+    background: -moz-linear-gradient(top, #c1a505 0%, #bfae50 69%);
+    background: -webkit-linear-gradient(top, #c1a505 0%,#bfae50 69%);
+    background: linear-gradient(to bottom, #c1a505 0%,#bfae50 69%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1a505', endColorstr='#bfae50',GradientType=0 );
+    list-style: none;
+    height: 68px;
+    width: 780px;
+    padding: 0px 20px;
+    font-family: "Road Rage","CGF Off-Road","Airbus Special";
+ 
+    }
+    
+#menu ul li{
+    
+    display: inline;
+    }
+
+#menu ul li a{ 
+    font-size: 20px;
+    padding: 20px 30px;
+    display: inline-block;
+
+    color: #343434;
+    text-decoration: none;
+    
+    }
+#menu ul li a:hover{
+    font-weight: bold;
+    color: #FFFFFF;
+    }
+
+#video{
+    position: relative;
+    width: 100%;
+}
+
+section{
+    margin: 0px auto;
+
+    height: 50px;
+    margin-left: 650px;
+    
+}
+.patrocinio{
+    
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.apoio{
+    
+    position: relative;
+    display: inline-block;
+    margin-left: 50px;
+}
+.apoioo{
+    
+    position: relative;
+    display: inline-block;
+    
+}
+.rede{
+width:100px;
+height:100px;
+float: left;
+margin-left: 10px;
+transition: all 0.4s ease-out;
+border-radius: 50%;
+}
+.rede:hover{
+    cursor:pointer;
+    transform: translateY(-8px);
+    box-shadow: 2px 5px 5px 0px rgba(50,50,50, 0.45);
+}
+
+
+
+.icones{
+    margin: 0px auto;
+    padding: 23px;
+    width: 55px;
+    height: 55px;
+}
+
+
+#email1{
+    display: inline-block;
+    position: relative;
+    top: 12px;
+    right: 5px;
+
+
+}
+#email2{
+    display: inline-block;
+    position: relative;
+    top: 5px;
+
+}
+
+
+
+
+
+#nossoobjetivo{
+    background-color: #343434;
+    width: 100%;
+    height: 390px;
+    z-index: 1;
+    padding-top: 40px;
+    
+    
+}
+
+#sobreoprojeto{
+    background-image: url(img/projeto.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;   
+    height: 1300px; 
+}
+
+.escondido{
+    
+    display: none;
+}
+
+#tituloprojeto{
+    font-family: "Modular Amplitude","Airbus Special";
+    font-size: 60px;
+    color: #343434;
+    box-shadow:inset 0px 1px 1px 0px #c1a505;
+    background:linear-gradient(to bottom, #c1a505 80%, #181818 100%);
+    background-color:#c1a505;
+    border-radius: 20px;
+    width: 500px;
+    
+}
+
+#bt1 {
+        box-shadow:inset 0px 1px 3px 0px #c1a505;
+        background:linear-gradient(to bottom, #c1a505 5%, #181818 100%);
+        background-color:#c1a505;
+        border-radius:5px;
+        border:1px solid #c1a505;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Verdana;
+        font-size:15px;
+        font-weight:bold;
+        padding:12px 60px;
+        text-decoration:none;
+        text-shadow:0px -1px 0px #181818;
+        
+    }
+#bt1:hover {
+        background:linear-gradient(to bottom, #343434 5%, #343434 100%);
+        background-color:#343434;
+    }
+#bt1:active {
+        position:relative;
+        top:1px;
+    }
+
+    #bt2 {
+        box-shadow:inset 0px 1px 3px 0px #c1a505;
+        background:linear-gradient(to bottom, #c1a505 5%, #181818 100%);
+        background-color:#c1a505;
+        border-radius:5px;
+        border:1px solid #c1a505;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Verdana;
+        font-size:15px;
+        font-weight:bold;
+        padding:12px 60px;
+        text-decoration:none;
+        text-shadow:0px -1px 0px #181818;
+    }
+#bt2:hover {
+        background:linear-gradient(to bottom, #343434 5%, #343434 100%);
+        background-color:#343434;
+    }
+#bt2:active {
+        position:relative;
+        top:1px;
+    }
+    #bt3 {
+        box-shadow:inset 0px 1px 3px 0px #c1a505;
+        background:linear-gradient(to bottom, #c1a505 5%, #181818 100%);
+        background-color:#c1a505;
+        border-radius:5px;
+        border:1px solid #c1a505;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Verdana;
+        font-size:15px;
+        font-weight:bold;
+        padding:12px 60px;
+        text-decoration:none;
+        text-shadow:0px -1px 0px #181818;
+    }
+#bt3:hover {
+        background:linear-gradient(to bottom, #343434 5%, #343434 100%);
+        background-color:#343434;
+    }
+#bt3:active {
+        position:relative;
+        top:1px;
+    }
+    #bt4 {
+        box-shadow:inset 0px 1px 3px 0px #c1a505;
+        background:linear-gradient(to bottom, #c1a505 5%, #181818 100%);
+        background-color:#c1a505;
+        border-radius:5px;
+        border:1px solid #c1a505;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Verdana;
+        font-size:15px;
+        font-weight:bold;
+        padding:12px 60px;
+        text-decoration:none;
+        text-shadow:0px -1px 0px #181818;
+    }
+#bt4:hover {
+        background:linear-gradient(to bottom, #343434 5%, #343434 100%);
+        background-color:#343434;
+    }
+#bt4:active {
+        position:relative;
+        top:1px;
+    }
+
+    #bt5 {
+        box-shadow:inset 0px 1px 3px 0px #c1a505;
+        background:linear-gradient(to bottom, #c1a505 5%, #181818 100%);
+        background-color:#c1a505;
+        border-radius:5px;
+        border:1px solid #c1a505;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Verdana;
+        font-size:15px;
+        font-weight:bold;
+        padding:12px 60px;
+        text-decoration:none;
+        text-shadow:0px -1px 0px #181818;
+    }
+#bt5:hover {
+        background:linear-gradient(to bottom, #343434 5%, #343434 100%);
+        background-color:#343434;
+    }
+#bt5:active {
+        position:relative;
+        top:1px;
+    }
+    #bt6 {
+        box-shadow:inset 0px 1px 3px 0px #c1a505;
+        background:linear-gradient(to bottom, #c1a505 5%, #181818 100%);
+        background-color:#c1a505;
+        border-radius:5px;
+        border:1px solid #c1a505;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Verdana;
+        font-size:15px;
+        font-weight:bold;
+        padding:12px 60px;
+        text-decoration:none;
+        text-shadow:0px -1px 0px #181818;
+    }
+#bt6:hover {
+        background:linear-gradient(to bottom, #343434 5%, #343434 100%);
+        background-color:#343434;
+    }
+#bt6:active {
+        position:relative;
+        top:1px;
+    }
+
+
+.col-100 {
+    margin-left: 400px;
+    float: left;
+    position: relative;
+}
+.col-24 {
+    margin-left: 540px;
+    float: left;
+    position: relative;
+}
+.col-25 {
+    margin-left: 300px;
+    float: left;
+    position: relative;
+}
+
+.col-10 {
+    
+    float: left;
+    position: relative;
+    margin-left: 220px;
+}
+
+
+.col-3 {
+    padding: 15px 15px;
+    text-align: center;
+    float: left;
+    position: relative;
+    width: 440px;
+   
+}
+
+.col-4 {
+    padding: 15px 15px;
+    text-align: center;
+    float: left;
+    position: relative;
+    width: 440px;
+  
+}
+
+.col-5 {
+    padding: 15px 15px;
+    text-align: center;
+    float: left;
+    position: relative;
+    width: 150px;
+    height: 200px;
+  
+}
+
+.col-6 {
+    padding: 15px 15px;
+    text-align: center;
+    float: left;
+    position: relative;
+    width: 150px;
+    height: 200px;
+
+    
+  
+}
+
+
+.estrutura{
+    height: 350px;
+    padding-bottom: 15px;
+    margin-left: 300px;
+    background-color: #DDD;
+    border-radius: 20px;
+    padding: 15px 15px;
+    text-align: center;
+    float: left;
+    position: relative;
+    width: 440px;
+
+}
+.freio{
+    height: 350px;
+    padding-bottom: 15px;
+    margin-left: 190px;
+    background-color: #DDD;
+    border-radius: 20px;
+    padding: 15px 15px;
+    text-align: center;
+    float: left;
+    position: relative;
+    width: 600px;
+
+}
+
+.bloco-imagem {
+    height: 300px;
+    padding-bottom: 15px;
+    margin-left: 25px;
+    
+    
+}
+
+.bloco-imagem b, p {
+    text-align: left;
+}
+
+.bloco-texto {
+    
+    background-color: #DDD;
+    border-radius: 20px;
+    
+}
+.bloco-imagem2 {    
+    padding-bottom: 15px;
+    margin-left: 25px;
+    
+}
+.bloco-texto2 {
+    
+    background-color: #DDD;
+    border-radius: 20px;
+    
+}
+
+h3 {
+    font-weight: normal!important;
+    font-family: Helvetica, sans-serif;
+}
+
+h4{
+    font-family: Helvetica, sans-serif;
+}
+
+p{
+    padding-top: 10px;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bloco-imagens-texto:before {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 52px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+#contato{
+    height: 600px;
+    background: #FFFFFF;
+    background: -moz-linear-gradient(top, #FFFFFF 0%, #d1d1d1 99%);
+    background: -webkit-linear-gradient(top, #FFFFFF 0%,#d1d1d1 99%);
+}
+
+.content{display: flex;justify-content: center;}
+.contato{width: 100%;max-width: 500px;}
+.form{display: flex;flex-direction: column;}
+.field{padding: 10px;margin-bottom: 15px;border: 1px solid #DDD;border-radius: 5px;font-family: Arial, Helvetica, sans-serif; font-size: 16px;}
+textarea{height: 150px;}
+
+
+
+h2{
+    font-family: Arial, Helvetica, sans-serif ;
+    color:#FFFFFF;
+    font-size:20px ;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+
+
